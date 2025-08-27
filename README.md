@@ -15,8 +15,6 @@ ASSIGNMENT/
 │── style.css # Shared stylesheet
 │── README.md # Project documentation
 
-yaml
-Copy code
 
 ---
 
@@ -71,12 +69,3 @@ Copy code
 
 ---
 
-Do you want me to also write you a **short email draft** to send with your submission so it looks neat and professional?
-
-
-
-
-
-
-
-Ask ChatGPT
