@@ -1,0 +1,146 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: Arial, sans-serif;
+}
+
+body {
+  line-height: 1.6;
+  color: #333;
+}
+
+/* Navbar */
+.navbar {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 15px 50px;
+  background: #111;
+}
+
+.logo img {
+  height: 40px;
+}
+
+.navbar .menu {
+  list-style: none;
+  display: flex;
+}
+
+.navbar .menu li {
+  margin-left: 20px;
+}
+
+.navbar .menu a {
+  color: #fff;
+  text-decoration: none;
+  font-weight: 500;
+  transition: 0.3s;
+}
+
+.navbar .menu a:hover {
+  color: #f39c12;
+}
+
+/* Hero */
+.hero {
+  position: relative;
+  text-align: center;
+  color: #fff;
+}
+
+.hero-bg {
+  width: 100%;
+  height: auto;
+  display: block;
+  filter: brightness(70%);
+}
+
+.hero-content {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+}
+
+.hero h1 {
+  font-size: 3rem;
+  margin-bottom: 15px;
+}
+
+.hero p {
+  font-size: 1.2rem;
+}
+
+/* About Section */
+.about-ais {
+  padding: 50px;
+  background: #f9f9f9;
+}
+
+.about-ais h2 {
+  margin-bottom: 20px;
+  font-size: 2rem;
+  text-align: center;
+}
+
+.about-ais ul {
+  margin: 20px 0;
+  padding-left: 20px;
+}
+
+.about-ais li {
+  margin-bottom: 10px;
+}
+
+/* Features Section */
+.features {
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  gap: 20px;
+  padding: 50px;
+  text-align: center;
+}
+
+.features .card {
+  background: #f4f4f4;
+  padding: 30px;
+  border-radius: 10px;
+  transition: 0.3s;
+}
+
+.features .card:hover {
+  background: #e2e2e2;
+}
+
+/* Call to Action */
+.cta {
+  background: #111;
+  color: #fff;
+  text-align: center;
+  padding: 50px 20px;
+}
+
+.btn {
+  display: inline-block;
+  margin-top: 15px;
+  padding: 12px 25px;
+  background: #f39c12;
+  color: #fff;
+  text-decoration: none;
+  border-radius: 5px;
+  transition: 0.3s;
+}
+
+.btn:hover {
+  background: #d35400;
+}
+
+/* Footer */
+footer {
+  text-align: center;
+  background: #222;
+  color: #fff;
+  padding: 15px;
+}
